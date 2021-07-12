@@ -67,7 +67,7 @@
 2. Overide service() method. this is 
 
     ```
-    package com.rudrasiva86;
+    package com.rudra;
 
     import java.io.IOException;
     import java.io.PrintWriter;
@@ -101,7 +101,7 @@
     ```
     <servlet>
 		<servlet-name>AddServlet</servlet-name>
-		<servlet-class>com.rudrasiva86.AddServlet</servlet-class>
+		<servlet-class>com.rudra.AddServlet</servlet-class>
 	</servlet>
     ```
 2. Add Servlet Mapping.
@@ -206,7 +206,7 @@
     ```
     <servlet>
 		<servlet-name>add</servlet-name>
-		<servlet-class>com.rudrasiva86.AddServlet</servlet-class>
+		<servlet-class>com.rudra.AddServlet</servlet-class>
 		<init-param>
 			<param-name>name</param-name>
 			<param-value>Rudra</param-value>

@@ -15,7 +15,7 @@
 	
 	<!-- <servlet>
 		<servlet-name>add</servlet-name>
-		<servlet-class>com.rudrasiva86.AddServlet</servlet-class>
+		<servlet-class>com.rudra.AddServlet</servlet-class>
 		<init-param>
 			<param-name>name</param-name>
 			<param-value>Rudra</param-value>
@@ -29,7 +29,7 @@
 	
 		<servlet>
 		<servlet-name>square</servlet-name>
-		<servlet-class>com.rudrasiva86.SquareServlet</servlet-class>
+		<servlet-class>com.rudra.SquareServlet</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
